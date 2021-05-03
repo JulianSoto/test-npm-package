@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm init react-app package-gui && cd package-gui && npm run build && mv build .. && cd .. && rm -drf package-gui/{*,.*}"
+    "prepare": "npm init react-app package-gui && cd package-gui && npm run build"
   },
   "repository": {
     "type": "git",
